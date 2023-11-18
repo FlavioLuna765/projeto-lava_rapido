@@ -6,6 +6,16 @@ h2 {
     text-align: center;
 }
 
+.botao-contato button {
+    width: 88px;
+    height: 42px;
+    border-radius: 20px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+
 footer {
     background-color: #777;
     padding: 2px;

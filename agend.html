@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento LavaMais!</title>
+    <link rel="stylesheet" href="estilos_css/agend.css">
+  </head>
+  <body>
+      <div id="calendar">
+          <h1>Agende sua Lavagem!</h1>
+          <form id="agendamento-form">
+              <label for="datePicker">Escolha uma data:</label>
+              <input type="date" id="datePicker" required>
+              <label for="timeSlot">Escolha um horário:</label>
+              <select id="timeSlot" required>
+                  <option value="09:00">09:00</option>
+                  <option value="09:30">09:30</option>
+                  <option value="10:00">10:00</option>
+                  <option value="10:30">10:30</option>
+                  <option value="11:00">11:00</option>
+                  <option value="11:30">11:30</option>
+                  <option value="12:00">12:00</option>
+                  <option value="12:30">12:30</option>
+                  <option value="13:00">13:00</option>
+                  <option value="13:30">13:30</option>
+                  <option value="14:00">14:00</option>
+                  <option value="14:30">14:30</option>
+                  <option value="15:00">15:00</option>
+                  <option value="15:30">15:30</option>
+                  <option value="16:00">16:00</option>
+              </select>
+              <!-- 
+                <label for="click">Selecione a forma de pagamento:</label>
+              <select id="click">
+                <option value="presencial">presencial</option>
+                <option value="cartão de credito">cartão de credito</option>
+                <option value="pix">pix</option>
+              </select>
+               -->
+              <br><br>
+          </form>
+          <div class="botao-contato">
+            <a href="pagament.html"><button>AGENDAR</button></a>
+          </div>
+      </div>
+      <script src="javascript/agend.js"></script>
+  </body>
+  </html>
