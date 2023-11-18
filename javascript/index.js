@@ -18,7 +18,7 @@ const usuarios = [
 
 let botao = document.getElementById('btnLogar');
 
-botao.addEventListener('click', function logar() {
+botao.addEventListener('click', function ACESSAR() {
     let EnterUsuario = document.getElementById('usuario').value;
     let EnterSenha = document.getElementById('senha').value;
     let validaLogin = false
