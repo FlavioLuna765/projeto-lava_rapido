@@ -16,15 +16,26 @@ section {
 
 section h2 {
     text-align: center;
+    margin: 10px;
 }
 
-section > ul > li > h3 {
+section > ul > li > {
     text-align: center;
+}
+
+.miss {
+    text-align: center;
+    margin: 10px;
+}
+
+.servis {
+    margin: 10px;
 }
 
 footer {
     background-color: #777;
     padding: 2px;
     text-align: center;
+    margin-top: 16px;
     color: white;
 }
